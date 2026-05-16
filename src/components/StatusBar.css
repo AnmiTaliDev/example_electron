@@ -1,0 +1,23 @@
+/* SPDX-FileCopyrightText: AnmiTaliDev <anmitalidev@nuros.org> */
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 16px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  background-color: var(--bg-toolbar);
+  border-top: 1px solid var(--border-color);
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.status-file {
+  font-style: italic;
+}
+
+.status-stats {
+  display: flex;
+  gap: 16px;
+}

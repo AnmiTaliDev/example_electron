@@ -1,0 +1,38 @@
+/* SPDX-FileCopyrightText: AnmiTaliDev <anmitalidev@nuros.org> */
+
+.editor-pane {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-right: 1px solid var(--divider-color);
+  overflow: hidden;
+}
+
+.pane-header {
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.editor-textarea {
+  flex: 1;
+  padding: 16px;
+  font-family: 'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  border: none;
+  outline: none;
+  resize: none;
+  tab-size: 2;
+}
+
+.editor-textarea::placeholder {
+  color: var(--text-secondary);
+}
